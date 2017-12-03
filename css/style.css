@@ -1,12 +1,307 @@
-.header img {
-  width: 100px;
-  height: 100px;
-  padding-left: 480px;
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&subset=latin-ext');
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #848484;
+    line-height: 1.6em;
+    font-weight: 400;
+    background-color: #f4f4f4;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 0 15px 0;
+    color: #222;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    color: #222;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-size: 24px;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0 0 21px 0;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 0.25s ease-in-out 0s;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:visited {
+    outline: none;
+}
+
+.navbar {
+    margin: 0;
+    border: inherit;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+
+.p-60 {
+    padding: 60px 0;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.pr-60 {
+    padding-right: 60px;
+}
+
+.app-round-btn {
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 26px;
+    color: #fff;
+    background-color: #C5C5C5;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+
+.app-round-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.social-links .app-round-btn {
+    width: 44px;
+    height: 44px;
+    line-height: 48px;
+    font-size: 18px;
+}
+
+ul.testimonial-menu,
+ul.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.header-area {
+    background-image: url(../images/header-bg.jpg);
+}
+
+.iphone-bg {
+    background-image: url(../images/iphone.png);
+}
+
+
+
+.header-area {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo {
+    width: 25%;
+    margin: 10% auto 60px;
+}
+
+.header-area h1 {
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+.header-area img {
+    margin-right: 15px;
+}
+
+
+
+.feature-area {
+    position: relative;
+}
+
+.iphone-bg {
+    width: 99%;
+    height: 800px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    bottom: -10%;
+    z-index: 9;
 
 }
 
-.header h1, img, p {
-  text-align: center;
-  position: relative;
-  top: 18px;
-  left: 10px;
+
+
+.video-area {
+    background-color: #E3E3E3;
+}
+
+.video-content h2,
+.video-content p {
+    margin-bottom: 24px;
+}
+
+.video-content h2 {
+    font-weight: 600;
+}
+.video-img img {
+    border-radius: 8px;
+}
+
+
+
+
+.testimonial-content {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+}
+
+.testimonial-content p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+}
+
+.testimonial-content h6 {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.designation {
+    font-weight: 400;
+}
+
+.testimonial-menu {
+    text-align: center
+}
+
+.testimonial-menu li {
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+}
+
+.testimonial-menu li a {
+    width: 88px;
+    height: 88px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.testimonial-menu li a > img {
+    width: 100%;
+}
+
+.testimonial-menu li a:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .3);
+    z-index: 1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.testimonial-menu li.active a:before,
+.testimonial-menu li:hover a:before {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+
+.footer-top-area,
+.footer-menu-area,
+.footer-top-area a,
+.footer-menu-area a {
+    color: #848484;
+}
+
+.footer-top-area h2 {
+    text-transform: capitalize;
+}
+
+.footer-top-area p {
+    font-size: 18px;
+}
+
+
+
+
+
+.footer-menu-area {
+    background-color: #E3E3E3;
+
+}
+
+.footer-menu {
+    text-align: center;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu li a {
+    padding: 0 24px;
+}
+
+.footer-menu li a:hover {
+    color: #222;
+}
