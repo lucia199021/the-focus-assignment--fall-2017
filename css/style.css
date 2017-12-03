@@ -1,0 +1,12 @@
+.header img {
+  width: 100px;
+  height: 100px;
+  padding-left: 480px;
+
+}
+
+.header h1, img, p {
+  text-align: center;
+  position: relative;
+  top: 18px;
+  left: 10px;
